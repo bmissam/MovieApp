@@ -3,6 +3,7 @@ import './App.css';
 import Rating from './rating'
 import MovieList from './movielist'
 import Search from "./search";
+import HOC from './HOC'
 
 const inception = {
   id: 'inception',
@@ -78,4 +79,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default HOC(App);
